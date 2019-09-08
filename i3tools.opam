@@ -10,5 +10,6 @@ build: [["dune" "build" "-p" name "-j" jobs]]
 synopsis: "Tools for the i3 window manager"
 depends: [
   "dune" {build}
+  "texttree"
   "texttree_notty"
 ]
