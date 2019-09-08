@@ -1,0 +1,3 @@
+(library
+ (name i3tools)
+ (libraries texttree i3ipc))

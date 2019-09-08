@@ -1,0 +1,4 @@
+(executable
+ (public_name i3_tree)
+ (preprocess (pps lwt_ppx))
+ (libraries cmdliner i3tools_notty i3ipc notty.unix))
